@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checklist Component</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="component">
+      <div class="progress-circle" style="--progress: 5">
+        <span>0/7</span>
+        <svg>
+          <circle cx="30" cy="30" r="28"></circle>
+          <circle cx="30" cy="30" r="28"></circle>
+        </svg>
+      </div>
+
+      <div class="text-content">
+        <div class="checklist">Чеклист</div>
+
+        <div class="checklist-status">Выполнено: 0 из 7 действий</div>
+        <div class="checklist-next-action">
+          Следующее действие: Созвониться с клиентом до 23.05.24 12:00
+        </div>
+      </div>
+      <button class="open-button">Открыть чеклист</button>
+    </div>
+  </body>
+</html>
